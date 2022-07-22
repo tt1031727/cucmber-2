@@ -1,0 +1,1080 @@
+[
+  {
+    "description": "    automation tc for sign up page",
+    "keyword": "Feature",
+    "name": "Sign up page",
+    "line": 1,
+    "id": "sign-up-page",
+    "tags": [],
+    "uri": "test.feature",
+    "elements": [
+      {
+        "id": "sign-up-page;checking-that-the-hint-\"this-field-is-required.\"-appears-if-you-leave-the-\"email\"-field-empty.",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Checking that the hint \"This field is required.\" appears if you leave the \"email\" field empty.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter \"Test Test\" in the \"Full name\" field",
+            "result": {
+              "status": "passed",
+              "duration": 40887000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Enter \"Test123test@\" in the \"password\" field",
+            "result": {
+              "status": "passed",
+              "duration": 661000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Click checkbox \"i agree\"",
+            "result": {
+              "status": "passed",
+              "duration": 184000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Click \"Create Account\" button",
+            "result": {
+              "status": "passed",
+              "duration": 278000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The hint email \"This field is required.\" appeared",
+            "result": {
+              "status": "passed",
+              "duration": 97000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;checking-that-the-hint-\"this-field-is-required.\"-appears-if-you-leave-the-\"full-name\"-field-empty.",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Checking that the hint \"This field is required.\" appears if you leave the \"Full name\" field empty.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Enter \"test1234@gmail.com\" in the \"email\" field",
+            "result": {
+              "status": "passed",
+              "duration": 25554000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Enter \"Test123test@\" in the \"password\" field",
+            "result": {
+              "status": "passed",
+              "duration": 761000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Click checkbox \"i agree\"",
+            "result": {
+              "status": "passed",
+              "duration": 174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click \"Create Account\" button",
+            "result": {
+              "status": "passed",
+              "duration": 264000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "The hint full name \"This field is required.\" appeared",
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;checking-that-it-is-impossible-to-create-a-password-less-than-12-characters.",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Checking that it is impossible to create a password less than 12 characters.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "Enter \"test1234@gmail.com\" in the \"email\" field",
+            "result": {
+              "status": "passed",
+              "duration": 37722000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Enter \"Test Test\" in the \"Full name\" field",
+            "result": {
+              "status": "passed",
+              "duration": 646000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "Enter \"Test1test@\" in the \"password\" field",
+            "result": {
+              "status": "passed",
+              "duration": 594000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "Click checkbox \"i agree\"",
+            "result": {
+              "status": "passed",
+              "duration": 175000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Click \"Create Account\" button",
+            "result": {
+              "status": "passed",
+              "duration": 277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Element long class - sc-3f0fa74c-5 dlOEFS",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;checking-that-it-is-impossible-to-create-a-password-without-numbers",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Checking that it is impossible to create a password without numbers",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "Enter \"test1234@gmail.com\" in the \"email\" field",
+            "result": {
+              "status": "passed",
+              "duration": 48332000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Enter \"Test Test\" in the \"Full name\" field",
+            "result": {
+              "status": "passed",
+              "duration": 463000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Enter \"Testtesttest@\" in the \"password\" field",
+            "result": {
+              "status": "passed",
+              "duration": 736000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "Click checkbox \"i agree\"",
+            "result": {
+              "status": "passed",
+              "duration": 184000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Click \"Create Account\" button",
+            "result": {
+              "status": "passed",
+              "duration": 245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "Element numbers class - sc-3f0fa74c-5 dlOEFS",
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;checking-that-it-is-impossible-to-create-a-password-without-special-symbols",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Checking that it is impossible to create a password without special symbols",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "Enter \"test1234@gmail.com\" in the \"email\" field",
+            "result": {
+              "status": "passed",
+              "duration": 40181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "Enter \"Test Test\" in the \"Full name\" field",
+            "result": {
+              "status": "passed",
+              "duration": 446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "Enter \"Testtesttest1\" in the \"password\" field",
+            "result": {
+              "status": "passed",
+              "duration": 573000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "Click checkbox \"i agree\"",
+            "result": {
+              "status": "passed",
+              "duration": 286000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "Click \"Create Account\" button",
+            "result": {
+              "status": "passed",
+              "duration": 259000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "Element special symbols class - sc-3f0fa74c-5 dlOEFS",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;checking-that-it-is-impossible-to-create-a-password-without-upper-case-letter",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Checking that it is impossible to create a password without upper-case letter",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "Enter \"test1234@gmail.com\" in the \"email\" field",
+            "result": {
+              "status": "passed",
+              "duration": 61945000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "Enter \"Test Test\" in the \"Full name\" field",
+            "result": {
+              "status": "passed",
+              "duration": 478000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "Enter \"testtesttest1@\" in the \"password\" field",
+            "result": {
+              "status": "passed",
+              "duration": 619000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "Click checkbox \"i agree\"",
+            "result": {
+              "status": "passed",
+              "duration": 258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "Click \"Create Account\" button",
+            "result": {
+              "status": "passed",
+              "duration": 463000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "Element upper-case class - sc-3f0fa74c-5 dlOEFS",
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;checking-the-inability-to-register-an-account-without-confirming-the-agreement",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "Checking the inability to register an account without confirming the agreement",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "Enter \"test1234@gmail.com\" in the \"email\" field",
+            "result": {
+              "status": "passed",
+              "duration": 31965000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "Enter \"Test Test\" in the \"Full name\" field",
+            "result": {
+              "status": "passed",
+              "duration": 554000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "Enter \"Testtesttest1@\" in the \"password\" field",
+            "result": {
+              "status": "passed",
+              "duration": 546000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "Click \"Create Account\" button",
+            "result": {
+              "status": "passed",
+              "duration": 274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "\"The Please accept the terms and conditions.\" appeared.",
+            "result": {
+              "status": "passed",
+              "duration": 97000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;checking-the-impossibility-of-entering-spaces-in-the-\"email\"-field.",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "Checking the impossibility of entering spaces in the \"email\" field.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "Enter \"test 1234@gmail.com\" in the \"email\" field",
+            "result": {
+              "status": "passed",
+              "duration": 40312000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "Enter \"Test Test\" in the \"Full name\" field",
+            "result": {
+              "status": "passed",
+              "duration": 642000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "Enter \"Testtesttest1@\" in the \"password\" field",
+            "result": {
+              "status": "passed",
+              "duration": 700000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "Click checkbox \"i agree\"",
+            "result": {
+              "status": "passed",
+              "duration": 189000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "Click \"Create Account\" button",
+            "result": {
+              "status": "passed",
+              "duration": 324000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "The hint \"Please enter a valid email address\" appeared",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Please enter a valid email address' within the element: <div#email_error.sc-25ef9dc0-1.fMtvwP> but never did.\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress\\integration\\test.feature:194:32)\n    at Context.resolveAndRunStepDefinition (https://telnyx.com/__cypress/tests?p=cypress\\integration\\test.feature:10901:29)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress\\integration\\test.feature:10222:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;checking-the-impossibility-to-register-an-email-with-\"@@\".",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "Checking the impossibility to register an email with \"@@\".",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "Enter \"test1234@@gmail.com\" in the \"email\" field",
+            "result": {
+              "status": "passed",
+              "duration": 67157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "Enter \"Test Test\" in the \"Full name\" field",
+            "result": {
+              "status": "passed",
+              "duration": 805000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "Enter \"Testtesttest1@\" in the \"password\" field",
+            "result": {
+              "status": "passed",
+              "duration": 627000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "Click checkbox \"i agree\"",
+            "result": {
+              "status": "passed",
+              "duration": 172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "Click \"Create Account\" button",
+            "result": {
+              "status": "passed",
+              "duration": 271000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "The hint \"Please enter a valid email address\" appeared",
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;checking-the-impossibility-to-register-an-email-without-\"@\".",
+        "keyword": "Scenario",
+        "line": 74,
+        "name": "Checking the impossibility to register an email without \"@\".",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 75,
+            "name": "Enter \"test1234gmail.com\" in the \"email\" field",
+            "result": {
+              "status": "passed",
+              "duration": 87687000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "Enter \"Test Test\" in the \"Full name\" field",
+            "result": {
+              "status": "passed",
+              "duration": 489000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "Enter \"Testtesttest1@\" in the \"password\" field",
+            "result": {
+              "status": "passed",
+              "duration": 562000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "Click checkbox \"i agree\"",
+            "result": {
+              "status": "passed",
+              "duration": 247000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "Click \"Create Account\" button",
+            "result": {
+              "status": "passed",
+              "duration": 544000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 80,
+            "name": "The hint \"Please enter a valid email address\" appeared",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;checking-the-impossibility-to-register-an-email-without-\".\".",
+        "keyword": "Scenario",
+        "line": 82,
+        "name": "Checking the impossibility to register an email without \".\".",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 83,
+            "name": "Enter \"test1234@gmailcom\" in the \"email\" field",
+            "result": {
+              "status": "passed",
+              "duration": 32684000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 84,
+            "name": "Enter \"Test Test\" in the \"Full name\" field",
+            "result": {
+              "status": "passed",
+              "duration": 754000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 85,
+            "name": "Enter \"Testtesttest1@\" in the \"password\" field",
+            "result": {
+              "status": "passed",
+              "duration": 530000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 86,
+            "name": "Click checkbox \"i agree\"",
+            "result": {
+              "status": "passed",
+              "duration": 233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 87,
+            "name": "Click \"Create Account\" button",
+            "result": {
+              "status": "passed",
+              "duration": 290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "The hint \"Please enter a valid email address\" appeared",
+            "result": {
+              "status": "passed",
+              "duration": 100000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;checking-the-impossibility-to-register-an-email-with-\".\"-before-\"@\".",
+        "keyword": "Scenario",
+        "line": 90,
+        "name": "Checking the impossibility to register an email with \".\" before \"@\".",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 91,
+            "name": "Enter \"test1234.@gmail.com\" in the \"email\" field",
+            "result": {
+              "status": "passed",
+              "duration": 23115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 92,
+            "name": "Enter \"Test Test\" in the \"Full name\" field",
+            "result": {
+              "status": "passed",
+              "duration": 450000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 93,
+            "name": "Enter \"Testtesttest1@\" in the \"password\" field",
+            "result": {
+              "status": "passed",
+              "duration": 530000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 94,
+            "name": "Click checkbox \"i agree\"",
+            "result": {
+              "status": "passed",
+              "duration": 184000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 95,
+            "name": "Click \"Create Account\" button",
+            "result": {
+              "status": "passed",
+              "duration": 292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 96,
+            "name": "The hint \"Please enter a valid email address\" appeared",
+            "result": {
+              "status": "passed",
+              "duration": 128000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;button-\"have-a-promo?\"-is-enebled",
+        "keyword": "Scenario",
+        "line": 98,
+        "name": "Button \"Have a promo?\" is enebled",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 99,
+            "name": "\"Have a promo?\" button is enebled",
+            "result": {
+              "status": "passed",
+              "duration": 29188000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;button-\"sign-up-with-google\"--is-enebled",
+        "keyword": "Scenario",
+        "line": 101,
+        "name": "Button \"sign up with google\"  is enebled",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 102,
+            "name": "\"sign up with google\" button is enebled",
+            "result": {
+              "status": "passed",
+              "duration": 30670000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;button-\"sign-up-with-microsoft\"--is-enebled",
+        "keyword": "Scenario",
+        "line": 104,
+        "name": "Button \"sign up with microsoft\"  is enebled",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 105,
+            "name": "\"sign up with microsoft\" button is enebled",
+            "result": {
+              "status": "passed",
+              "duration": 20475000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;checking-that-clicking-on-the-\"telnyx\"-logo-takes-you-to-the-main-page.",
+        "keyword": "Scenario",
+        "line": 107,
+        "name": "Checking that clicking on the \"telnyx\" logo takes you to the main page.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 108,
+            "name": "click \"telnyx\" logo",
+            "result": {
+              "status": "passed",
+              "duration": 30292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 109,
+            "name": "wait",
+            "result": {
+              "status": "passed",
+              "duration": 2608000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 110,
+            "name": "open main page",
+            "result": {
+              "status": "passed",
+              "duration": 99000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;checking-that-clicking-on-the-\"sign-in\"-button-takes-you-to-the-sign-in-page.",
+        "keyword": "Scenario",
+        "line": 112,
+        "name": "Checking that clicking on the \"Sign in\" button takes you to the sign in page.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 113,
+            "name": "click \"sign in\" button",
+            "result": {
+              "status": "passed",
+              "duration": 33842000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 114,
+            "name": "wait",
+            "result": {
+              "status": "passed",
+              "duration": 2087000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 115,
+            "name": "open sign in page",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'https://telnyx.com/' to include 'https://portal.telnyx.com/?_gl=1*1szmezg*_ga*MTA3OTkxMzIwOS4xNjU3NTI2OTEx*_ga_ZPM4K1DLND*MTY1ODM0NjYwMi4yMy4xLjE2NTgzNDc3MTIuMA..#/login/sign-in'\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress\\integration\\test.feature:301:12)\n    at Context.resolveAndRunStepDefinition (https://telnyx.com/__cypress/tests?p=cypress\\integration\\test.feature:10901:29)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress\\integration\\test.feature:10222:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;checking-that-clicking-on-the-\"terms-and-conditions\"-button-takes-you-to-the--terms-and-conditions-page.",
+        "keyword": "Scenario",
+        "line": 117,
+        "name": "Checking that clicking on the \"Terms and Conditions\" button takes you to the  Terms and Conditions page.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 118,
+            "name": "click \"Terms and Conditions\" button",
+            "result": {
+              "status": "passed",
+              "duration": 40277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 119,
+            "name": "wait",
+            "result": {
+              "status": "passed",
+              "duration": 2185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 120,
+            "name": "open Terms and Conditions page",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'https://telnyx.com/sign-up' to include 'https://telnyx.com/terms-and-conditions-of-service'\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress\\integration\\test.feature:310:12)\n    at Context.resolveAndRunStepDefinition (https://telnyx.com/__cypress/tests?p=cypress\\integration\\test.feature:10901:29)\n    at Context.eval (https://telnyx.com/__cypress/tests?p=cypress\\integration\\test.feature:10222:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;checking-that-clicking-on-the-\"join-the-waitlist.\"-button-takes-you-to-the-sign-in-page.",
+        "keyword": "Scenario",
+        "line": 122,
+        "name": "Checking that clicking on the \"JOIN THE WAITLIST.\" button takes you to the sign in page.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 123,
+            "name": "click \"JOIN THE WAITLIST.\" button",
+            "result": {
+              "status": "passed",
+              "duration": 37256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 124,
+            "name": "wait",
+            "result": {
+              "status": "passed",
+              "duration": 4460000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 125,
+            "name": "open product page",
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-page;checking-that-clicking-on-the-\"privacy-policy\"-button-takes-you-to-the-sign-in-page.",
+        "keyword": "Scenario",
+        "line": 127,
+        "name": "Checking that clicking on the \"Privacy Policy\" button takes you to the sign in page.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 128,
+            "name": "click \"Privacy Policy\" button",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 129,
+            "name": "wait",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 130,
+            "name": "open Privacy Policy page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
